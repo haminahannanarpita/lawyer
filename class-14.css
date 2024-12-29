@@ -1,0 +1,23 @@
+@media only screen and (max-width: 460px) {
+    body {
+      background-color: rgb(128, 207, 233);
+    }
+  }
+
+h1{
+   background-color: bisque;
+}
+
+@media only screen and (max-width: 992px) {
+    body {
+      background-color: rgb(156, 226, 141);
+    }
+    h1{
+        background-color: brown;
+    }
+  }
+
+
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
